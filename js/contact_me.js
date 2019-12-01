@@ -10,7 +10,6 @@ $(function() {
       // get values from FORM
       var name = $("input#name").val();
       var email = $("input#email").val();
-      var phone = $("input#phone").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -24,7 +23,6 @@ $(function() {
         type: "POST",
         data: {
           name: name,
-          phone: phone,
           email: email,
           message: message
         },
@@ -53,7 +51,7 @@ $(function() {
         },
         complete: function() {
           setTimeout(function() {
-            $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+            $this.prop("disabled", false); // Re-enable submit button when A JAX call is complete
           }, 1000);
         }
       });
