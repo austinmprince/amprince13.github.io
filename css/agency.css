@@ -710,6 +710,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   vertical-align: baseline;
 }
 
-.social-icons .fa-fastack:hover {
-  color: red;
+.social-icons:hover .fa, .social-icons:hover .icon_div, .social-icons:hover a{
+  color: #fed136;
+  text-decoration: none;
+
+
 }
