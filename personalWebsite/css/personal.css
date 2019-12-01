@@ -1,0 +1,163 @@
+/* body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.mainImage {
+
+  background-image: url("img/mainpage/IMG_3722.jpg");
+  height: 100%;
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+
+  /* opacity:0; */
+}
+
+
+
+/* .mui--appbar-height {
+  style: solid #aaa;
+} */
+
+.mui--text-title {
+  opacity: 1;
+  font-family: HelveticaNeue-Medium;
+  color: #000000;
+  letter-spacing: -0.33px;
+  text-align: center;
+  margin-top: 0
+}
+
+
+header li {
+  margin: 0 5% 0;
+  font-family: Helvetica-Light;
+  color: #000000;
+}
+
+
+header ul.mui-list--inline {
+  margin-bottom: 0;
+
+}
+
+header table {
+  width: 100%;
+} */
+
+
+
+.aboutMe {
+  text-align: center;
+  margin-top: 100px;
+  display: inline-block;
+
+}
+
+.abtPic {
+  padding: 2%;
+  width: 30%;
+
+  margin-top: 5%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+.abtText {
+  text-align: left;
+  font: 2em;
+  /* margin-left: 5%; */
+  margin-top: 5%;
+  padding: 2%;
+  font-family: Helvetica-Light;
+  width: 30%;
+  color: #000000;
+  letter-spacing: -0.79px;
+  display: inline-block;
+  vertical-align: top;
+}
+.abtHeader {
+  font-size: 3em;
+}
+
+#abtMePic {
+  content: url("../img/abtme/aboutmepic.png");
+  width: 100%;
+  height: auto;
+}
+#content-wrapper {
+  min-height: 100%;
+
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
+
+.skills {
+  text-align: center;
+  /* width: 75%; */
+}
+#skillTitle {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+
+
+  width: 60%;
+  height: 20px;
+  margin: 5% 5%;
+  border-bottom: 1px solid black;
+
+}
+#skillTitle span {
+  background-color: white;
+  font-size: 2em;
+  padding: 5% 10%;
+}
+
+.skillList {
+  /* width: 75%; */
+  list-style-type: none;
+  /* margin: 1% 15%; */
+  /* justify-content: center; */
+
+
+}
+.skillList figure {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 30%;
+    text-align:center;
+
+}
+
+.skillList img {
+
+  width: 10%;
+
+}
+
+.skillList figcaption {
+  text-align: center;
+}
+
+
+
+/* .skillList li {
+  display: inline;
+} */
